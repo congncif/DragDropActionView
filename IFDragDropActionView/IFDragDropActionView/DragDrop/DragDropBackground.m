@@ -194,7 +194,6 @@
 	if (!_dropZoneView) {
 		_dropZoneView = [DropZoneView newDragItem];
 		[_dropZoneView drawWithFrame:CGRectMake(0, self.bounds.size.height, self.bounds.size.width, _dropZoneView.bounds.size.height)];
-
 		_dropZoneView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
 		[self addSubview:_dropZoneView];
 	}
