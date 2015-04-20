@@ -9,16 +9,26 @@
 #import <UIKit/UIKit.h>
 
 @class DropZoneView;
+
+@class DragDropBackground;
+@protocol DropProtocol <NSObject>
+
+- (void)dropViewToPerfromAction;
+
+@end
+
 @interface DragDropBackground : UIView
 
 @property (nonatomic, strong) DropZoneView *dropZoneView;
 @property (nonatomic, strong) UIView *customItemView;
 @property (nonatomic, readonly) CGPoint hitPoint;
 
+@property (nonatomic, weak) id <DropProtocol> delegate;
+
 + (id)sharedView;
 
 - (void)showInView:(UIView *)view;
-- (void)showInView:(UIView *)view complete:(void(^)(void))complation;
+- (void)showInView:(UIView *)view complete:(void (^)(void))complation;
 - (void)dismiss;
 
 - (void)setHitPoint:(CGPoint)hitPoint animated:(BOOL)animated duration:(NSTimeInterval)time;

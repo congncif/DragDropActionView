@@ -496,6 +496,7 @@
 				E45C240C1AE50FA2006CCF45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E45C240D1AE50FA2006CCF45 /* Build configuration list for PBXNativeTarget "IFDragDropActionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +505,7 @@
 				E45C240F1AE50FA2006CCF45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

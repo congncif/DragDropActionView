@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>FB935100-2C14-48C8-B990-2ECE66D934FD</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>IFDragDropActionView</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>907F2910D5B1C461AB8BAD2276F12773BB8170CD</key>
 		<string>https://github.com/congncif/DragDropActionView.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>IFDragDropActionView/IFDragDropActionView.xcodeproj/project.xcworkspace</string>
+	<string>IFDragDropActionView/IFDragDropActionView.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>907F2910D5B1C461AB8BAD2276F12773BB8170CD</key>
